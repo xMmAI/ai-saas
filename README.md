@@ -1,6 +1,15 @@
+## Acknowledgements
+
+This application was successfully developed following the course by Antonio: [Code With Antonio](https://www.codewithantonio.com/)
+
+- Course: Build a Saas AI Platform 
+- Course Link: (https://www.codewithantonio.com/projects/ai-saas)
+
+Special thanks to Antonio for providing the knowledge and framework that made this AI SaaS application possible.
+
 # MmAI: Your All-in-One AI Creative Suite
 
-MmAI (Me Myself and AI) is an all-in-one AI Saas Platform at your fingertips. This application showcases the power of llms across multiple creative domains, including chat, image generation, code synthesis, video production, and audio creation.
+MmAI (Me Myself and AI) is an all-in-one AI Saas Platform at your fingertips. This application showcases the power of llms across multiple creative domains, including chat, image generation, code synthesis, video production, and audio creation. This is an application developed in the build with antonio course
 
 ## Features
 
