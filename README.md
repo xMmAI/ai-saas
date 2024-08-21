@@ -1,4 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MmAI: Your All-in-One AI Creative Suite
+
+MmAI (Me Myself and AI) is an all-in-one AI Saas Platform at your fingertips. This application showcases the power of llms across multiple creative domains, including chat, image generation, code synthesis, video production, and audio creation.
+
+## Features
+
+- Conversational AI: Interact with OpenAI 4o-mini chatbot for various tasks and queries.
+- Image Generation: Create images based on text descriptions with OpenAI Dalle-2.
+- Code Assistance: Generate and manipulate code snippets.
+- Video Creation: Produce short video content from text.
+- Audio Generation: Create audio content including music and sound using text.
+
+## Key Dependencies
+
+- [Next.js](https://nextjs.org/): The React framework for building the web application, providing server-side rendering and routing.
+- [shadcn/ui](https://ui.shadcn.com/): A component library for building the user interface.
+- [OpenAI API](https://www.openai.com/): Provides natural language processing capabilities for various features.
+- [Clerk](https://clerk.dev/): Handles user authentication and account management.
+- [Replicate](https://replicate.com/): Offers AI models for image, audio and video generation tasks. 
+
+You can swap any of the models to the model of your choice.
 
 ## Getting Started
 
@@ -19,6 +39,30 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Installation
+#### 1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/mmai.git
+cd mmai
+```
+#### 2. Install dependencies: 
+```npm install
+or
+yarn install
+```
+
+#### 3. Set up environment variables:
+Create a .env file in the root directory and add the following variables:
+```NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+OPENAI_API_KEY=your_openai_api_key
+REPLICATE_API_TOKEN=your_replicate_api_token
+```
 
 ## Learn More
 
